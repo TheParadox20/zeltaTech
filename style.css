@@ -6,6 +6,14 @@
     font-family: Samsung Sharp Sans;
     src: url(assets/fonts/samsungsharpsans.otf);
 }
+@font-face {
+    font-family: Samsung Sharp Sans-Bold;
+    src: url(assets/fonts/samsungsharpsans-bold.otf);
+}
+@font-face {
+    font-family: Samsung Sharp Sans-Medium;
+    src: url(assets/fonts/samsungsharpsans-medium.otf);
+}
 header{
     position: sticky;
     top: 0;
@@ -67,11 +75,10 @@ color: #FFFFFF;
 }
 #banner h1{
     color: #213053;
-    font-family: Samsung Sharp Sans;
-    font-weight: bold;
+    font-family: Samsung Sharp Sans-Bold;
     font-style: normal;
-    font-size: 470%;
-    line-height: 100%;
+    font-size: 80px;
+    line-height: 86px;
     letter-spacing: 1px;
 }
 #banner p{
@@ -112,9 +119,8 @@ color: #FFFFFF;
     color: var(--ebony-clay);
 }
 #sectionTitle{
-    font-family: Samsung Sharp Sans;
+    font-family: Samsung Sharp Sans-Bold;
     font-style: normal;
-    font-weight: bold;
     font-size: 42px;
     line-height: 66px;
     text-align: center;
@@ -151,7 +157,7 @@ color: #FFFFFF;
     border-bottom: 100% solid #272626;
 }
 .identity h2{
-    font-family: Samsung Sharp Sans;
+    font-family: Samsung Sharp Sans-Medium;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
