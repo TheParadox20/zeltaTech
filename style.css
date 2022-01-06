@@ -25,7 +25,7 @@ nav{
     margin-right: 100px;
 }
 .navbar-brand img{
-    max-width:100%;
+    max-width:50%;
     max-height: min-content;
 }
 .navbar-nav li{
@@ -65,7 +65,7 @@ color: #FFFFFF;
 
 #banner{
     background: #EBF5FF;
-    padding: 7% 0;
+    padding: 2% 0;
 }
 #banner .container{
     width: 85%;
@@ -78,6 +78,10 @@ color: #FFFFFF;
     font-size: 80px;
     line-height: 86px;
     letter-spacing: 1px;
+    
+}
+#bannerTitle{
+    padding-top: 15%;
 }
 #banner p{
     color: #213053;
