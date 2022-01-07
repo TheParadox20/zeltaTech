@@ -84,8 +84,8 @@ color: #FFFFFF;
     color: #213053;
     font-family: Samsung Sharp Sans-Bold;
     font-style: normal;
-    font-size: 55px;
-    line-height: 66px;
+    font-size: 45px;
+    line-height: 56px;
     letter-spacing: 1px;
 }
 .landingTitle p{
@@ -93,9 +93,9 @@ color: #FFFFFF;
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 30px;
-    opacity: 0.8;
+    font-size: 11px;
+    line-height: 22px;
+    max-width: 80%;
 }
 #callButton{
     height: 103px;
