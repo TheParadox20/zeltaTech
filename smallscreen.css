@@ -1,0 +1,343 @@
+@font-face {
+    font-family: Samsung Sharp Sans;
+    src: url(assets/fonts/samsungsharpsans.otf);
+}
+@font-face {
+    font-family: Samsung Sharp Sans-Bold;
+    src: url(assets/fonts/samsungsharpsans-bold.otf);
+}
+@font-face {
+    font-family: Samsung Sharp Sans-Medium;
+    src: url(assets/fonts/samsungsharpsans-medium.otf);
+}
+/* start of nav bar */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #EBF5FF;
+}
+.navbar-brand{
+    max-width: 50%;
+}
+.navbar-brand img{
+    max-width:100%;
+    max-height: min-content;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    min-width: fit-content;
+    font-family: Samsung Sharp Sans;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+header #contact{
+    background: #FF7139;
+    box-shadow: 0px 13px 36px #f18b624d;
+    border-radius: 5px;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: transparent;
+}
+header #contact span{
+font-family: Samsung Sharp Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 26px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* end of nav bar */
+
+.landingPage{
+    background: #EBF5FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.landingTitle{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.landingTitle > div{
+    width: 80%;
+    margin: 3%;
+}
+.landingTitle h1{
+    color: #213053;
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.landingTitle p{
+    color: #213053;
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+#callButton{
+    height: 30%;
+    width: 100%;
+    background: #FF7139;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#callButtonText{
+    color: var(--white);
+    font-family: var(--font-family-samsung-sans-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 30px;
+    top: 38px;
+    white-space: nowrap;
+}
+.landingImage{
+    display: none;
+}
+
+/* end of landing section */
+
+.whoWeAre{
+    padding: 40px 0;
+    width: 95%;
+    margin: auto;
+    color: var(--ebony-clay);
+}
+#sectionTitle{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #1D263A;
+    padding: 20px 0;
+}
+#whoWeAre .sectionImage{
+    width: 100%;
+    height: 80%;
+    padding: 40px 0;
+    margin: auto;
+    border-radius: 5px;
+}
+#speech{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    color: #1D263A;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.identity{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid #a6b4d8;
+}
+.identity > div{
+    margin: 20px;
+}
+.identity > div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.identity h2{
+    font-family: Samsung Sharp Sans-Medium;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    color: #213053;
+    padding-bottom: 6%;
+    text-align: center;
+}
+.identity p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #213053;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    text-align: justify;
+}
+.identity img{
+    max-height: 20%;
+    max-width: 20%;
+    padding-bottom: 6%;
+}
+
+/* end of who we are section */
+
+.services{
+    background: #5D5FEF;
+}
+.services ul{
+    max-width: 95%;
+    margin: auto;
+}
+.services ul li{
+    display: inline-block;
+    list-style: none;
+}
+.services ul li img{
+    display: none;
+}
+.services ul li h1{
+    font-family: Samsung Sharp Sans-bold;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    padding-top: 0%;
+}
+#serviceSpeech{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.services ul li p a{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #46D3FF;
+    opacity: 0.8;
+}
+.interchange{
+    text-align: center;
+    max-width: 85%;
+    margin: auto;
+    margin-top: 12%;
+    padding-bottom: 10%;
+}
+.interchange h1{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #000B33;
+    padding-bottom: 5%;
+}
+.interchange p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #000B33;
+    opacity: 0.8;
+}
+#listHolder{
+    background: #EBF5FF;
+    max-width: 82%;
+    margin: auto;
+    border-radius: 5px;
+}
+.serviceList{
+    display: flex;
+    flex-flow: column;
+    max-width: 99%;
+    margin: auto;
+}
+.serviceList > div{
+    background-color: white;
+    border-radius: 6px;
+    margin: 1%;
+    padding: 3%;
+    text-align: center;
+}
+.serviceList > div img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 11%;
+}
+.serviceList > div h3{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000B33;
+    margin-bottom: 9%;
+}
+.serviceList > div p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000B33;
+    opacity: 0.7;
+}
+
+/* end of services section */
+
+
+#partners{
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+}
+#partners h1{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 66px;text-align: center;
+    letter-spacing: -1px;
+    color: #1D263A;
+}
+#partners p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    color: #213053;
+    opacity: 0.7;
+}
+#partners ul li{
+    list-style: none;
+    margin: 3%;
+    max-height: 10%;
+    max-width: 30%;
+    padding-bottom: 5%;
+}
