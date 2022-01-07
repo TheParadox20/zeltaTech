@@ -17,33 +17,33 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="assets/logo2.svg" alt=""></a>
+            <a class="navbar-brand" href="#landingPage"><img src="assets/logo2.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Who we are</a>
+                    <a class="nav-link" href="#whoWeAre">Who we are</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Partners</a>
+                    <a class="nav-link" href="#partners">Partners</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="temp.html"><button id="contact"><span>Contact Us</span></button></a>
+                        <a class="nav-link" href="#"><button id="contact"><span>Contact Us</span></button></a>
                     </li>
                 </ul>
             </div>
         </nav>
   </header>
     <main>
-        <section class="landingPage">
+        <section id="landingPage">
             <div class="landingTitle">
                 <div style="flex-grow: 2;">
                     <h1 id="Title">Handcrafting a digital realm</h1><br>
@@ -57,7 +57,7 @@
                 <img src="assets/alpha.svg">
             </div>
         </section>
-        <section class="whoWeAre">
+        <section id="whoWeAre">
             <h1 id="sectionTitle">Who we are</h1>
             <p id="speech">We cover every angle and capture every opportunity encircling graphics and identity, websites and digital experiences, advertising and communications. Our aim is to drive growth, build platforms that solve problems, and develop marketing strategies to help great brands create a greater impact. By merging imagination and technology, we use iterative problem solving to leave a real digital impact.</p>
             <img class="img-fluid sectionImage" src="assets/images/bannerImage.png" alt="" srcset="">
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section id="services">
             <hr>
             <ul>
                 <li> <img src="assets/images/maskGroup.png" alt=""> </li>
@@ -141,8 +141,25 @@
               <li><img src="assets/images/image4.png" alt=""></li>
             </ul>
           </section>
+          <section id="team">
+            <h1>Meet Our Team</h1>
+            <p>This outstanding team of talented developers, skilled management team and rockstar advisors craft beautiful ICOs for awesome clients</p>
+            <div class="container">
+                <div class="row">
+                    <div id="employee" class="col-sm-3"><img src="assets/images/teamMember.png" alt=""> <br> <span id="name">Mudit Grover</span> <br> <span class="role">CTO</span></div>
+                    <div id="employee" class="col-sm-3"><img src="assets/images/teamMember.png" alt=""> <br> <span id="name">Mudit Grover</span> <br> <span class="role">CTO</span></div>
+                    <div id="employee" class="col-sm-3"><img src="assets/images/teamMember.png" alt=""> <br> <span id="name">Mudit Grover</span> <br> <span class="role">CTO</span></div>
+                    <div id="employee" class="col-sm-3"><img src="assets/images/teamMember.png" alt=""> <br> <span id="name">Mudit Grover</span> <br> <span class="role">CTO</span></div>
+                </div>
+            </div>
+          </section>
     </main>
     <footer></footer>
+    <!-- javascript -->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

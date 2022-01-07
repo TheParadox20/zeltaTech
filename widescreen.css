@@ -63,7 +63,7 @@ color: #FFFFFF;
 
 /* end of nav bar */
 
-.landingPage{
+#landingPage{
     background: #EBF5FF;
     display: flex;
     flex-direction: row;
@@ -121,7 +121,7 @@ color: #FFFFFF;
 
 /* end of landing section */
 
-.whoWeAre{
+#whoWeAre{
     padding: 40px 0;
     width: 85%;
     margin: auto;
@@ -194,24 +194,24 @@ color: #FFFFFF;
 
 /* end of who we are section */
 
-.services{
+#services{
     background: #5D5FEF;
 }
-.services ul{
+#services ul{
     max-width: 70%;
     margin: auto;
 }
-.services ul li{
+#services ul li{
     display: inline-block;
     list-style: none;
     max-width: 50%;
 }
-.services ul li img{
+#services ul li img{
     width: 55%;
     height: 65%;
     z-index: 10;
 }
-.services ul li h1{
+#services ul li h1{
     font-family: Samsung Sharp Sans-bold;
     font-style: normal;
     font-size: 48px;
@@ -229,7 +229,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     opacity: 0.8;
 }
-.services ul li p a{
+#services ul li p a{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: 500;
@@ -347,4 +347,43 @@ color: #FFFFFF;
     margin: 3%;
     max-height: 10%;
     max-width: 30%;
+}
+
+/* end of partners section */
+
+#team{
+    margin-top: 5%;
+    background: #EBF5FF;
+    padding: 5% 0%;
+}
+#team h1{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #1D263A;
+    padding-bottom: 5%;
+}
+#team p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    color: #213053;
+    opacity: 0.7;
+    padding-bottom: 5%;
+}
+#employee{
+    margin: 5px;
+    max-width: 50%;
+    background: white;
+    padding: 1.5% 0px 1.5% 2%;
+}
+#employee img{
+    max-width: 80%;
+    max-height: 90%;
 }
