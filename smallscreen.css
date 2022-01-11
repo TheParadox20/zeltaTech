@@ -372,12 +372,152 @@ color: #FFFFFF;
 }
 #employee{
     background: white;
-    margin: 5px;
-    padding: 1.5% 2%;
+    max-width: 80%;
+    margin: auto;
+    padding: 4% 5%;
+    margin-bottom: 5%;
+}
+#name{
+    font-family: Samsung Sharp Sans-Medium;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000B33;
+    max-width: fit-content;
+    margin: 6% 0%;
+}
+#role{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000B33;
+    opacity: 0.7;
+    max-width: fit-content;
 }
 #employee img{
     max-width: 80%;
     max-height: 90%;
+}
+
+/* end of team secion */
+
+
+/* contact us section */
+
+#contactUs{
+    background: #1D263A;
+    min-height: max-content;
+    padding: 8% 3%;
+}
+#introText{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+#followUp{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 58px;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+#emailLink{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 10%;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+form{
+    background: white;
+    padding: 6%;
+    border-radius: 7px;
+}
+label{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;color: #1D263A;
+    margin: 5% 3%;
+}
+input, textarea{
+    background: #E1ECF0;
+    opacity: 0.5;
+    min-width: 100%;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 3% 5%;
+    font-family: Samsung Sharp Sans;
+    margin: 2% 3%;
+}
+form button{
+    background: #FF7139;
+    color: white;
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 5% 25%;
+    margin-top: 5%;
+}
+
+/* end of contact us section */
+
+/* get started sub section */
+.getStarted{
+    background: #EBF5FF;
+    padding: 8% 4% 8% 5%;
+}
+#getStartedHeading{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #1D263A;
+    padding-bottom: 5%;
+}
+#getStartedIntro{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #213053;
+    opacity: 0.7;
+    padding-bottom: 8%;
+}
+#getStartedLink button{
+    padding: 3% 12%;
+    background: white;
+    text-transform: uppercase;
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #1D263A;
+    border-color: transparent;
+    margin: auto;
 }
 
 /* footer section */

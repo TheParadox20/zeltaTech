@@ -378,15 +378,34 @@ color: #FFFFFF;
     padding-bottom: 5%;
 }
 #employee{
-    margin: 5px;
-    max-width: 50%;
+    margin: 15px;
     background: white;
     padding: 1.5% 0px 1.5% 2%;
+    max-width: 20%;
+}
+#name{
+    font-family: Samsung Sharp Sans-Medium;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000B33;
+    margin: 3% 0%;
+}
+#role{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000B33;
+    opacity: 0.7;
 }
 #employee img{
-    max-width: fit-content;
-    max-height: fit-content;
+    max-width: 80%;
+    max-height: 90%;
 }
+
+/* end of team secion */
 
 
 /* contact us section */
