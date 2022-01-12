@@ -523,8 +523,15 @@ form button{
 footer{
     margin-top: 5%;
 }
+#footerFlex{
+    display: flex;
+    flex-direction: column;
+}
+#footerFlex > div{
+    margin-bottom: 3%;
+}
 #footerLogo{
-    width: 71.46px;
+    width: 100%;
     height: 71.44px;
 }
 #testingRelation li{

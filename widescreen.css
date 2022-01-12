@@ -537,13 +537,16 @@ form button{
 footer{
     margin-top: 5%;
 }
+#footerFlex{
+    display: flex;
+}
 #footerLogo{
     width: 71.46px;
     height: 71.44px;
 }
-#testingRelation li{
-    list-style: none;
-    display: inline-block;
+.omega{
+    margin-left: 8%;
+    margin-top: 8%;
 }
 #footerList , #footerText , #socialList{
     list-style: none;
@@ -567,4 +570,8 @@ footer{
 #socialList li a , #footerList li a{
     text-decoration: none;
     color: inherit;
+}
+.bottomFooter{
+    margin-top: 6%;
+    padding-left: 3%;
 }
