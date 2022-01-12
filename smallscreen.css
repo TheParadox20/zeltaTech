@@ -549,6 +549,7 @@ footer{
     margin: 0 3%;
     font-family: Samsung Sharp Sans-Bold;
 }
-#socialList li a{
+#socialList li a , #footerList li a{
     text-decoration: none;
+    color: inherit;
 }
