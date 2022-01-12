@@ -30,7 +30,7 @@ header{
     font-family: Samsung Sharp Sans;
     font-size: 16px;
     line-height: 26px;
-    text-align: right;
+    text-align: center;
 }
 .navbar-toggler{
     outline: none !important;
@@ -153,7 +153,6 @@ color: #FFFFFF;
     flex-direction: column;
     margin-top: 9%;
     padding-bottom: 4%;
-    border-bottom: 1px solid #a6b4d8;
 }
 .identity > div{
     margin: 20px;

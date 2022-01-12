@@ -34,9 +34,6 @@ nav{
     line-height: 26px;
     text-align: right;
 }
-.fa-bars{
-    font-size: 30px !important;
-}
 .navbar-toggler{
     outline: none !important;
 }
@@ -50,15 +47,18 @@ header #contact{
     border-color: transparent;
 }
 header #contact span{
-font-family: Samsung Sharp Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 26px;
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
 
-text-align: center;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.verticalCenter{
+    margin-top: 8px;
 }
 
 /* end of nav bar */
@@ -160,7 +160,6 @@ color: #FFFFFF;
     flex-direction: row;
     margin-top: 9%;
     padding-bottom: 4%;
-    border-bottom: 1px solid #a6b4d8;
 }
 .identity > div{
     margin: 20px;
@@ -250,7 +249,7 @@ color: #FFFFFF;
     font-family: Samsung Sharp Sans-Bold;
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 75px;
     text-align: center;
     letter-spacing: -0.5px;
@@ -320,7 +319,7 @@ color: #FFFFFF;
     max-width: 60%;
     margin: auto;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 #partners h1{
     font-family: Samsung Sharp Sans-Bold;
@@ -330,6 +329,7 @@ color: #FFFFFF;
     line-height: 66px;text-align: center;
     letter-spacing: -1px;
     color: #1D263A;
+    margin-bottom: 5%;
 }
 #partners p{
     font-family: Samsung Sharp Sans;
@@ -353,7 +353,7 @@ color: #FFFFFF;
 
 #team{
     margin-top: 5%;
-    background: #EBF5FF;
+    background: #f9fcff;
     padding: 5% 0%;
 }
 #team h1{
@@ -376,6 +376,8 @@ color: #FFFFFF;
     color: #213053;
     opacity: 0.7;
     padding-bottom: 5%;
+    max-width: 60%;
+    margin: auto;
 }
 #employee{
     margin: 15px;
@@ -386,7 +388,7 @@ color: #FFFFFF;
 #name{
     font-family: Samsung Sharp Sans-Medium;
     font-style: normal;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 26px;
     color: #000B33;
     margin: 3% 0%;
@@ -395,7 +397,7 @@ color: #FFFFFF;
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 26px;
     color: #000B33;
     opacity: 0.7;
@@ -487,13 +489,13 @@ form button{
 /* get started sub section */
 .getStarted{
     background: #EBF5FF;
-    padding: 8% 4% 8% 5%;
+    padding: 8% 1% 8% 3%;
 }
 #getStartedHeading{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 58px;
     display: flex;
     align-items: center;
@@ -508,6 +510,12 @@ form button{
     line-height: 32px;
     color: #213053;
     opacity: 0.7;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+#getStartedLink{
+    margin-top: 5%;
+    padding-left: 10%;
 }
 #getStartedLink button{
     padding: 3% 12%;
@@ -543,10 +551,12 @@ footer{
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    
     text-align: right;
     color: #1D263A;
     text-decoration: none;
+}
+#footerList li{
+    margin-bottom:6%;
 }
 #socialList li{
     list-style: none;
