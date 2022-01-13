@@ -93,12 +93,13 @@ header #contact span{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 22px;
     max-width: 80%;
+    word-spacing: 2%;
 }
 #callButton{
-    height: 103px;
+    height: 95px;
     width: 270px;
     background: #FF7139;
     border-radius: 5px;
@@ -114,6 +115,11 @@ header #contact span{
     line-height: 30px;
     top: 38px;
     white-space: nowrap;
+}
+#callButton img{
+    margin:3%;
+    padding-bottom: 2%;
+
 }
 .landingImage > img{
     max-width: 110%;
@@ -267,7 +273,7 @@ header #contact span{
     opacity: 0.8;
 }
 #listHolder{
-    background: #EBF5FF;
+    background: #f9fcff;
     max-width: 82%;
     margin: auto;
     border-radius: 5px;
@@ -275,8 +281,10 @@ header #contact span{
 .serviceList{
     display: flex;
     flex-flow: row wrap;
-    max-width: 99%;
     margin: auto;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .serviceList > div{
     max-width: 30%;
@@ -378,6 +386,9 @@ header #contact span{
     padding-bottom: 5%;
     max-width: 60%;
     margin: auto;
+}
+#gallary{
+    margin-left: 17px;
 }
 #employee{
     margin: 15px;
