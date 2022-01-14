@@ -10,7 +10,6 @@
     font-family: Samsung Sharp Sans-Medium;
     src: url(fonts/samsungsharpsans-medium.otf);
 }
-
 /* start of nav bar */
 header{
     position: sticky;
@@ -18,12 +17,11 @@ header{
     z-index: 10;
     background: #EBF5FF;
 }
-nav{
-    margin-left: 100px;
-    margin-right: 100px;
+.navbar-brand{
+    max-width: 50%;
 }
 .navbar-brand img{
-    max-width:50%;
+    max-width:100%;
     max-height: min-content;
 }
 .navbar-nav li{
@@ -32,7 +30,7 @@ nav{
     font-family: Samsung Sharp Sans;
     font-size: 16px;
     line-height: 26px;
-    text-align: right;
+    text-align: center;
 }
 .navbar-toggler{
     outline: none !important;
@@ -47,21 +45,76 @@ header #contact{
     border-color: transparent;
 }
 header #contact span{
-    font-family: Samsung Sharp Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 26px;
+font-family: Samsung Sharp Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 26px;
 
-    text-align: center;
+text-align: center;
 
-    color: #FFFFFF;
-}
-.verticalCenter{
-    margin-top: 8px;
+color: #FFFFFF;
 }
 
 /* end of nav bar */
+
+/* start of main */
+#intro{
+    background-color: #5800E7;
+    background-image: url(../assets/cookie/contours.png);
+    margin-bottom: 8%;
+}
+#intro h2{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+#intro p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-bottom: 7%;
+}
+
+/* end of intro */
+
+#blabla{
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3% 8%;
+    margin-bottom: 8%;
+}
+#blabla h1{
+    font-family: Samsung Sharp Sans-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000B33;
+    margin: 6% 0%;
+}
+#blabla p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    color: #000B33;
+    opacity: 0.7;
+}
 
 /* get started sub section */
 .getStarted{
