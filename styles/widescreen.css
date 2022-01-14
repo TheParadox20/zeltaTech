@@ -1,14 +1,14 @@
 @font-face {
     font-family: Samsung Sharp Sans;
-    src: url(assets/fonts/samsungsharpsans.otf);
+    src: url(fonts/samsungsharpsans.otf);
 }
 @font-face {
     font-family: Samsung Sharp Sans-Bold;
-    src: url(assets/fonts/samsungsharpsans-bold.otf);
+    src: url(fonts/samsungsharpsans-bold.otf);
 }
 @font-face {
     font-family: Samsung Sharp Sans-Medium;
-    src: url(assets/fonts/samsungsharpsans-medium.otf);
+    src: url(fonts/samsungsharpsans-medium.otf);
 }
 
 /* start of nav bar */
@@ -94,8 +94,8 @@ header #contact span{
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
-    line-height: 22px;
-    max-width: 80%;
+    line-height: 27px;
+    max-width: 87%;
     word-spacing: 2%;
 }
 #callButton{

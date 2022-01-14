@@ -1,14 +1,14 @@
 @font-face {
     font-family: Samsung Sharp Sans;
-    src: url(assets/fonts/samsungsharpsans.otf);
+    src: url(fonts/samsungsharpsans.otf);
 }
 @font-face {
     font-family: Samsung Sharp Sans-Bold;
-    src: url(assets/fonts/samsungsharpsans-bold.otf);
+    src: url(fonts/samsungsharpsans-bold.otf);
 }
 @font-face {
     font-family: Samsung Sharp Sans-Medium;
-    src: url(assets/fonts/samsungsharpsans-medium.otf);
+    src: url(fonts/samsungsharpsans-medium.otf);
 }
 /* start of nav bar */
 header{
@@ -108,6 +108,10 @@ color: #FFFFFF;
     top: 38px;
     white-space: nowrap;
 }
+#callButton img{
+    margin:3%;
+    padding-bottom: 1%;
+}
 .landingImage{
     display: none;
 }
@@ -131,7 +135,7 @@ color: #FFFFFF;
 }
 #whoWeAre .sectionImage{
     width: 100%;
-    height: 80%;
+    height: 100%;
     padding: 40px 0;
     margin: auto;
     border-radius: 5px;
