@@ -70,7 +70,7 @@
             <hr id="scrollServices">
         </section>
         <section class="interchange">
-            <h1>Get a full prodcut development partner for your startup</h1>
+            <h1>Get a full product development partner for your startup</h1>
             <p>With our dedicated efforts and technical expertise, We serve as an extended arm to your business constantly keeping up with the dynamic needs of your organisation</p>
         </section>
         <section id="listHolder">
