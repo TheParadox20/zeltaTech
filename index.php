@@ -140,7 +140,7 @@
                   <p id="emailLink"><a href="mailto: hello@zeltatech.com">hello@zeltatech.com</a></p>
                 </div>
                 <div class="col-md-6">
-                    <form action="" method="post">
+                    <form action="sec.php" method="post">
                         <label for="name">Name *</label><br>
                         <input type="text" id="name" name="name" placeholder="your full name"><br>
                         <label for="email">Email *</label><br>
