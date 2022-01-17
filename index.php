@@ -140,23 +140,40 @@
                   <p id="emailLink"><a href="mailto: hello@zeltatech.com">hello@zeltatech.com</a></p>
                 </div>
                 <div class="col-md-6">
-                    <form>
+                    <form action="" method="post">
                         <label for="name">Name *</label><br>
-                        <input type="text" id="name" name="fname" placeholder="your full name"><br>
+                        <input type="text" id="name" name="name" placeholder="your full name"><br>
                         <label for="email">Email *</label><br>
-                        <input type="email" id="email" name="lname" placeholder="your email"><br>
+                        <input type="email" id="email" name="email" placeholder="your email"><br>
                         <label for="captcha">What is 7+5 *</label><br>
                         <input type="text" id="captcha" name="lname" placeholder="answer"><br>
                         <label for="query">How can we help with your project?</label><br>
-                        <textarea name="message" rows="7" cols="30" id="query" placeholder="Tell us about your project">
+                        <textarea name="message" rows="7" cols="30" id="message" placeholder="Tell us about your project">
                         </textarea>
-                        <button type="submit">Send Message</button>
+                        <button type="submit" name="submit" id="submit">Send Message</button>
                       </form>
                 </div>
               </div>
             </div>
           </section>
           <?php require 'preF.php'?>
+          <?php
+            require_once "books.php";
+            $link = new mysqli($Hn , $User , $Pass , $Db );
+
+            // Check if the form is submitted
+            if ( isset( $_POST['submit'] ) ) {
+                echo "message detected";
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $query = $_POST['message'];
+                $submit = "INSERT INTO `client` (`name` , `email` ,`query`,`timestamp`) VALUES ('$name' , '$email' , '$query','timeStamp(date)')";
+                $link->query($submit);
+            } else{
+                echo "message NOT detected";
+            }
+            $link->close();
+          ?>
     </main>
     <?php require 'footer.php' ?>
     <!-- javascript -->
