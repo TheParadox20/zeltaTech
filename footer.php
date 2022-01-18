@@ -4,7 +4,7 @@
             <div class="col-md-6">
                 <div id="footerFlex">
                     <div id="footerLogo"><img src="assets/footerLogo.svg" alt=""></div>
-                    <div id="footerText" class="omega" style="text-align: left;">© 2021 Zelta Tech (CIN: U74999DL2017PTC318113) - All Rights Reserved F-4-A, M/S Zelta Tech, Industrial Area, Sikar, Rajasthan 332001 India (B29/30, 22 godown, jaipur)</div>
+                    <div id="footerText" class="omega" style="text-align: left;">© 2021 Zelta Tech (CIN: U74999DL2017PTC318113) - All Rights Reserved B-29-30, B-39-40, RIICO Industrial Area, 22 Godown Industrial Area, Jaipur-302001</div>
                 </div>
             </div>
             <div class="col-md-3">
