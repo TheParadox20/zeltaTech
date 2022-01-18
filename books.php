@@ -1,7 +1,7 @@
 <?php
 $Hn = "localhost";
-$User =  "root";
-$Pass = "";
+$User =  "samson";
+$Pass = "samson2002";
 $Db = "zeltatech";
 $Table = "client";
 ?>
