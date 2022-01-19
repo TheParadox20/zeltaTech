@@ -27,5 +27,5 @@ $message = '<!doctype html>
         </html>';
 $result = @mail($to, $subject, $message, $headers);
 
-echo '<script>alert("Email sent successfully !")</script>';
+echo '<script>alert("Email sent successfully to <?php $to ?> !")</script>';
 echo '<script>window.location.href="index.php";</script>';
