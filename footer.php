@@ -17,8 +17,8 @@
             </div>
             <div class="col-md-3">
               <ul id="footerList">
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="careers.php">Jobs</a></li>
+                <li><a href="tc.php">Privacy Policy</a></li>
                 <li><a href="cookie.php">Cookie Policy</a></li>
               </ul>
             </div>

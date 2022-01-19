@@ -20,11 +20,11 @@
     </header>
     <main>
         <section id="intro">
-            <h2>Cookie Policy</h2>
+            <h2>Terms & Conditions</h2>
             <p>Join the Zelta family</p>
         </section>
         <section id=blabla>
-            <h1 style="font-family: Samsung Sharp Sans-Bold;font-size: 30px;">Cookie Policy</h1>
+            <h1 style="font-family: Samsung Sharp Sans-Bold;font-size: 30px;">Generate Terms & Conditions</h1>
             <p>By accessing and placing an order with UXTheme, you confirm that you are in greement with and bound by the terms and conditions contained in the Terms Of Use outlined elow.entire website and any emailommunication between you and UXTheme. Under no circumstances shall UXTheme team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arisingout of the use, or the inability to use, the materials on this site, even if UXTheme team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof</p>
             <h1>Genereate Terms & Conditions for websites</h1>
             <p>Creating a Terms & Conditions for your application or website can take a lot of time. You could either spend tons of money on hiring a lawyer, or you could simply use our service and get a unique Terms & Conditions fully custumized to your website. Creating a Terms & Conditions for your application or website can take a lot of time. You could either spend tons of money on hiring a lawyer, or you could simply use our service and get a unique Terms & Conditions fully custumized to your website.</p>
