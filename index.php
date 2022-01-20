@@ -7,7 +7,6 @@
     <link href = "assets/logo.svg" rel="icon" type="image/gif">
     <link rel="stylesheet" media="screen and (min-width: 601px)" href="styles/widescreen.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/smallscreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/mediumscreen.css">
     <title>Zeltatech</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
