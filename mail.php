@@ -28,4 +28,4 @@ $message = '<!doctype html>
 $result = @mail($to, $subject, $message, $headers);
 
 echo '<script>alert("Email sent successfully !")</script>';
-echo '<script>window.location.href="index.php";</script>';
+echo '<script>window.location.href="index.php#contactUs";</script>';

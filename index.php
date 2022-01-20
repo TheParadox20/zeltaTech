@@ -148,8 +148,7 @@
                         <label for="captcha">What is 7+5 *</label><br>
                         <input type="text" id="captcha" name="lname" placeholder="answer"><br>
                         <label for="query">How can we help with your project?</label><br>
-                        <textarea name="message" rows="7" cols="30" id="message" placeholder="Tell us about your project">
-                        </textarea>
+                        <textarea name="message" rows="7" cols="30" id="message" placeholder="Tell us about your project"></textarea>
                         <button type="submit" name="submit" id="submit">Send Message</button>
                       </form>
                 </div>

@@ -10,7 +10,7 @@ if ( isset( $_POST['submit'] ) ) {
     $submit = "INSERT INTO `client` (`name` , `email` ,`query`,`timestamp`) VALUES ('$name' , '$email' , '$query','timeStamp(date)')";
     $link->query($submit);
     //mail sending
-    $to = 'onyambusamson@gmail.com';
+    $to = 'hello@zelta.com';
     $subject = 'Marriage Proposal';
     $message = $query; 
     $from = $email;
@@ -38,7 +38,7 @@ if ( isset( $_POST['submit'] ) ) {
     $result = @mail($to, $subject, $message, $headers);
 
     echo '<script>alert("Email sent successfully !")</script>';
-    echo '<script>window.location.href="index.php";</script>';
+    echo '<script>window.location.href="index.php#contactUs";</script>';
 }
 $link->close();
 ?>
