@@ -19,7 +19,6 @@
               <ul id="footerList">
                 <li><a href="careers.php">Jobs</a></li>
                 <li><a href="tc.php">Privacy Policy</a></li>
-                <li><a href="cookie.php">Cookie Policy</a></li>
               </ul>
             </div>
           </div>

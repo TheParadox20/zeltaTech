@@ -112,7 +112,7 @@ header #contact span{
     color: #000B33;
     margin: 6% 0%;
 }
-#blabla p{
+#blabla p , #blabla p ul li{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: normal;
