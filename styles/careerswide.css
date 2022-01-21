@@ -63,7 +63,6 @@ header #contact span{
 
 /* end of nav bar */
 
-
 /* start of main */
 #intro{
     background-color: #5800E7;
@@ -96,23 +95,102 @@ header #contact span{
 
 /* end of intro */
 
-#blabla{
-    max-width: 50%;
-    margin: auto;
-    box-shadow: 0 4px 8px 0 #EBF5FF, 0 6px 20px 0 #EBF5FF;
-    padding: 3% 8%;
-    margin-bottom: 8%;
+#landingPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3.5% 10%;
 }
-#blabla h1{
-    font-family: Samsung Sharp Sans-Medium;
+#alphaT{
+    font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    color: #000B33;
-    margin: 6% 0%;
+    font-size: 20px;
+    line-height: 26px;
+    color: #2B59FF;
+    padding-bottom: 3%;
 }
-#blabla p , #blabla p ul li{
+.landingTitle{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    max-width: 50%;
+}
+.landingTitle > div{
+    width: 80%;
+    margin: 3%;
+}
+.landingTitle h1{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    color: #000B33;
+}
+.landingTitle p{
+    color: #213053;
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 27px;
+    max-width: 87%;
+    word-spacing: 2%;
+    margin-bottom: 6%;
+}
+#callButton{
+    height: 50px;
+    width: 180px;
+    background: #FD4C5C;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 12%;
+}
+#callButtonText{
+    color: var(--white);
+    font-family: var(--font-family-samsung-sans-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+#callButton img{
+    margin:3%;
+    padding-bottom: 2%;
+}
+.landingImage > img{
+    max-width: 110%;
+}
+
+#dots{
+    position: relative;
+    bottom: 75%;
+    left: 68%;
+    z-index: -1;
+}
+/* end of landing section */
+
+
+/* genesis of positions secion */
+#positions{
+    max-width: 60%;
+    padding: 2% 0%;
+    margin: auto;
+}
+#positions h1{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    color: #000B33;
+    padding-bottom: 1%;
+    padding-left: 40px;
+}
+#positionsSpeech{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: normal;
@@ -120,12 +198,55 @@ header #contact span{
     line-height: 26px;
     color: #000B33;
     opacity: 0.7;
+    max-width: 45%;
+    padding-left: 40px;
 }
+#positions ul{
+    /* background-color: #f9fcff; */
+    list-style: none;
+}
+#positions ul li{
+    padding: 4% 2%;
+    margin: 4% 0%;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+#positions ul li :hover{
+    box-shadow: 0 4px 8px 0 #EBF5FF, 0 6px 20px 0 #EBF5FF;
+}
+#positions ul li h3{
+    font-family: Samsung Sharp Sans-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000B33;
+    padding-bottom: 1%;
+}
+#positions ul li p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000B33;
+    opacity: 0.5;
+}
+#arrow{
+    width: 22.86px;
+    height: 20px;
+    position: relative;
+    left: 95%;
+}
+/* end of positions section */
+
 
 /* get started sub section */
 .getStarted{
     background: #EBF5FF;
     padding: 8% 1% 8% 3%;
+    margin-top: 7%;
 }
 #getStartedHeading{
     font-family: Samsung Sharp Sans;
