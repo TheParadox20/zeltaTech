@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie</title>
+    <title>Privacy policy</title>
     <link href = "assets/logo.svg" rel="icon" type="image/gif">
     <link rel="stylesheet" media="screen and (min-width: 601px)" href="styles/cookiewide.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/cookiesmall.css">

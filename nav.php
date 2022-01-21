@@ -12,9 +12,6 @@
             <a class="nav-link" href="#scrollServices">Services</a>
             </li>
             <li class="nav-item verticalCenter">
-            <a class="nav-link" href="#scrollPartners">Partners</a>
-            </li>
-            <li class="nav-item verticalCenter">
             <a class="nav-link" href="#scrollTeam">Team</a>
             </li>
             <li class="nav-item">

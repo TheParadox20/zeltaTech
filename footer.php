@@ -25,7 +25,7 @@
         </div>
         <div class="container">
             <div class="row bottomFooter">
-                <div class="col-md-4" id="footerText" style="text-align: left;">© 2021 Zeltatech All Rights Reserved</div>
+                <div class="col-md-4" id="footerText" style="text-align: left;">© 2022 Zeltatech All Rights Reserved</div>
                 <div class="col-md-8">
                   <ul id="socialList">
                     <li> <a href="https://www.facebook.com/Zelta-Tech-110672314835024/" target="_blank">Facebook</a></li>

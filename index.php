@@ -107,14 +107,6 @@
             <div id="scrollPartners"></div>
         </section>
         <section id="partners">
-            <h1>Our Partners</h1>
-            <p>We are honoured to be working with the revolutionary companies paving the way forward for a transformative, decentralised future.</p>
-            <ul>
-              <li><img src="assets/images/image1.png" alt=""></li>
-              <li><img src="assets/images/image2.png" alt=""></li>
-              <li><img src="assets/images/image3.png" alt=""></li>
-              <li><img src="assets/images/image4.png" alt=""></li>
-            </ul>
             <div id="scrollTeam"></div>
           </section>
           <section id="team">
