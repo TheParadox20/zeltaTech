@@ -29,10 +29,10 @@
                 <div class="col-md-4" id="footerText" style="text-align: left;">© 2021 Zeltatech All Rights Reserved</div>
                 <div class="col-md-8">
                   <ul id="socialList">
-                    <li> <a href="https://www.facebook.com/Zelta-Tech-110672314835024/">Facebook</a></li>
-                    <li> <a href="https://twitter.com/HelloZelta">Twitter</a></li>
-                    <li> <a href="#">Instagram</a></li>
-                    <li> <a href="https://www.linkedin.com/company/zeltatech/">LinkedIn</a></li>
+                    <li> <a href="https://www.facebook.com/Zelta-Tech-110672314835024/" target="_blank">Facebook</a></li>
+                    <li> <a href="https://twitter.com/HelloZelta" target="_blank">Twitter</a></li>
+                    <li> <a href="#" target="_blank">Instagram</a></li>
+                    <li> <a href="https://www.linkedin.com/company/zeltatech/" target="_blank">LinkedIn</a></li>
                   </ul>
                 </div>
               </div>

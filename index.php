@@ -25,7 +25,7 @@
                     <p>A one platform solution to all your digital needs, we are here to help you execute your most ambitious projects to perfection by leveraging the power of technology. A dedicated team of experts combined with the best that technology has to offer, we bring you the best of both worlds.</p>
                 </div>
                 <div>
-                    <button id="callButton"> <span id="callButtonText">Schedule a Call</span> <img src="assets/rightArrow.svg"> </button>
+                    <a href="#contactUs"><button id="callButton"> <span id="callButtonText">Schedule a Call</span> <img src="assets/rightArrow.svg"> </button></a>
                 </div>
             </div>
             <div class="landingImage">
