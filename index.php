@@ -62,7 +62,6 @@
                     <h1>We create world-class digital products, web design, and branding.</h1>
                     <p>
                         <span id="serviceSpeech">We work endlessly towards ensuring that our design and branding solutions do justice to the brilliant projects we work with.</span>
-                        <a href="#">Learn more</a>
                     </p>
                     </li>
             </ul>
