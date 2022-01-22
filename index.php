@@ -129,16 +129,16 @@
                   <p id="emailLink"><a href="mailto: hello@zeltatech.com">hello@zeltatech.com</a></p>
                 </div>
                 <div class="col-md-6">
-                    <form action="sec.php" method="post">
+                    <form action="https://formspree.io/f/mjvlgjap" method="post">
                         <label for="name">Name *</label><br>
                         <input type="text" id="name" name="name" placeholder="your full name"><br>
                         <label for="email">Email *</label><br>
                         <input type="email" id="email" name="email" placeholder="your email"><br>
                         <label for="captcha">What is 7+5 *</label><br>
-                        <input type="text" id="captcha" name="lname" placeholder="answer"><br>
+                        <input type="text" id="captcha" name="captcha" placeholder="answer"><br>
                         <label for="query">How can we help with your project?</label><br>
                         <textarea name="message" rows="7" cols="30" id="message" placeholder="Tell us about your project"></textarea>
-                        <button type="submit" name="submit" id="submit">Send Message</button>
+                        <button type="submit" id="submit">Send Message</button>
                       </form>
                 </div>
               </div>
