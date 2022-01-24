@@ -90,31 +90,144 @@ color: #FFFFFF;
 
 /* end of intro */
 
-#blabla{
-    max-width: 90%;
-    margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 3% 8%;
-    margin-bottom: 8%;
+/* start of landing page */
+
+#landingPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10%;
 }
-#blabla h1{
-    font-family: Samsung Sharp Sans-Medium;
+#alphaT{
+    font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    color: #000B33;
-    margin: 6% 0%;
+    font-size: 20px;
+    line-height: 26px;
+    color: #2B59FF;
+    padding-bottom: 3%;
 }
-#blabla p{
+.landingTitle{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.landingTitle > div{
+    width: 90%;
+    margin: 3%;
+}
+.landingTitle h1{
+    color: #213053;
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.landingTitle p{
+    color: #213053;
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+#callButton{
+    height: 30%;
+    width: 100%;
+    background: #FD4C5C;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#callButtonText{
+    color: var(--white);
+    font-family: var(--font-family-samsung-sans-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 30px;
+    top: 38px;
+    white-space: nowrap;
+}
+#callButton img{
+    margin:3%;
+    padding-bottom: 1%;
+}
+.landingImage{
+    display: none;
+}
+
+/* end of landing section */
+
+/* genesis of positions secion */
+#positions{
+    max-width: 95%;
+    margin: auto;
+}
+#positions h1{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    color: #000B33;
+    padding-bottom: 1%;
+    text-align: center;
+}
+#positionsSpeech{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 26px;
     color: #000B33;
     opacity: 0.7;
+    max-width: 95%;
+    padding-left: 2%;
 }
+#positions ul{
+    /* background-color: #f9fcff; */
+    list-style: none;
+    padding-bottom: 10%;
+    padding-left: 2% !important;
+}
+#positions ul li{
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    border-radius: 10px;
+    margin: 5% 0%;
+}
+#positions ul li :hover{
+    box-shadow: 0 4px 8px 0 #EBF5FF, 0 6px 20px 0 #EBF5FF;
+}
+#positions ul li h3{
+    font-family: Samsung Sharp Sans-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000B33;
+    padding-top: 4%;
+}
+#positions ul li p{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #000B33;
+    opacity: 0.5;
+}
+#arrow{
+    width: 5%;
+    height: 4%;
+    position: relative;
+    left: 90%;
+    padding-bottom: 5%;
+}
+/* end of positions section */
+
 
 /* get started sub section */
 .getStarted{

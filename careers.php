@@ -7,7 +7,7 @@
     <title>Careers</title>
     <link href = "assets/logo.svg" rel="icon" type="image/gif">
     <link rel="stylesheet" media="screen and (min-width: 601px)" href="styles/careerswide.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/careersmall.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/csmall.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/mediumscreen.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -41,7 +41,7 @@
             <h1>Open Positions</h1>
             <p id="positionsSpeech">Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p>
             <ul>
-                <a href="">
+                <a href="careerDetails.php">
                     <li>
                         <h3>Financial Department Manager</h3>
                         <p>Full Time, USA</p>
@@ -52,7 +52,8 @@
                     <li>
                         <h3>Sales Department Manager</h3>
                         <p>Full Time, UK</p>
-                        <div id="arrow"><img src="assets/arrowBlack.svg"></div>
+                        <!-- <div id="arrow"><img src="assets/arrowBlack.svg"></div> -->
+                        <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
                 <a href="#">
@@ -66,14 +67,14 @@
                     <li>
                         <h3>Tax Consultant</h3>
                         <p>Full Time, Germany</p>
-                        <div id="arrow"><img src="assets/arrowBlack.svg"></div>
+                        <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
                 <a href="#">
                     <li>
                         <h3>Senior Payroll Accountany</h3>
                         <p>Remote, UK</p>
-                        <div id="arrow"><img src="assets/arrowBlack.svg"></div>
+                        <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
             </ul>

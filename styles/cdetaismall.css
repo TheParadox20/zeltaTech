@@ -90,23 +90,125 @@ color: #FFFFFF;
 
 /* end of intro */
 
-#blabla{
-    max-width: 90%;
-    margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 3% 8%;
-    margin-bottom: 8%;
+/* start of landing page */
+
+#landingPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10%;
 }
-#blabla h1{
-    font-family: Samsung Sharp Sans-Medium;
+#alphaT{
+    font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #2B59FF;
+    padding-bottom: 3%;
+}
+.landingTitle{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.landingTitle > div{
+    width: 90%;
+    margin: 3%;
+}
+.landingTitle h1{
+    color: #213053;
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.landingTitle p{
+    color: #213053;
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 30px;
+    opacity: 0.8;
+}
+#callButton{
+    height: 30%;
+    width: 100%;
+    background: #FD4C5C;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#callButtonText{
+    color: var(--white);
+    font-family: var(--font-family-samsung-sans-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 30px;
+    top: 38px;
+    white-space: nowrap;
+}
+#callButton img{
+    margin:3%;
+    padding-bottom: 1%;
+}
+.landingImage{
+    display: none;
+}
+
+/* end of landing section */
+
+/* start of left side */
+
+#left{
+}
+#left h3{
+    font-family: Samsung Sharp Sans-Medium;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000B33;
+}
+#left ol li{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
     color: #000B33;
     margin: 6% 0%;
 }
-#blabla p{
+/* end of left side */
+
+/* start of right side */
+#right{
+    margin-bottom: 7%;
+}
+#right h1{
+    font-family: Samsung Sharp Sans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    color: #000B33;
+    margin: 2% 0%;
+}
+#right h3{
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 45px;
+    color: #000B33;
+    margin: 2% 3%;
+}
+#right p,#right ul{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: normal;
@@ -114,12 +216,38 @@ color: #FFFFFF;
     line-height: 26px;
     color: #000B33;
     opacity: 0.7;
+    margin: 2% 3%;
 }
+#right ul{
+    list-style-image: url('assets/blue.svg');
+}
+#callButton{
+    height: 50px;
+    width: 180px;
+    background: #FD4C5C;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 12%;
+}
+
+#callButtonText{
+    color: var(--white);
+    font-family: var(--font-family-samsung-sans-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+/* end of right side */
 
 /* get started sub section */
 .getStarted{
     background: #EBF5FF;
     padding: 8% 1% 8% 3%;
+    margin-top: 7%;
 }
 #getStartedHeading{
     font-family: Samsung Sharp Sans;
