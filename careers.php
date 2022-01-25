@@ -41,38 +41,52 @@
             <h1>Open Positions</h1>
             <p id="positionsSpeech">Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p>
             <ul>
-                <a href="careerDetails.php">
+                <a href="job1110.php">
                     <li>
-                        <h3>Financial Department Manager</h3>
-                        <p>Full Time, USA</p>
-                        <img src="assets/arrowBlack.svg" id="arrow">
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        <h3>Sales Department Manager</h3>
+                        <h3>Full Stack Javascript Developer</h3> <!-- job id 1110 -->
                         <p>Full Time, UK</p>
                         <!-- <div id="arrow"><img src="assets/arrowBlack.svg"></div> -->
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
-                <a href="#">
+                <a href="job1111.php">
                     <li>
-                        <h3>Assistant Customer-Care Officer</h3>
+                        <h3>PR & Social Media Manager</h3> <!-- job id 1111 -->
                         <p>Remote, China</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
-                <a href="#">
+                <a href="job1112.php">
                     <li>
-                        <h3>Tax Consultant</h3>
+                        <h3>Product Manager</h3> <!-- job id 1112 -->
                         <p>Full Time, Germany</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
-                <a href="#">
+                <a href="job1113.php">
                     <li>
-                        <h3>Senior Payroll Accountany</h3>
+                        <h3>Solidity Developer</h3> <!-- job id 1113 -->
+                        <p>Remote, UK</p>
+                        <img src="assets/arrowBlack.svg" id="arrow">
+                    </li>
+                </a>
+                <a href="job1114.php">
+                    <li>
+                        <h3>Systems Administrator</h3> <!-- job id 1114 -->
+                        <p>Remote, UK</p>
+                        <img src="assets/arrowBlack.svg" id="arrow">
+                    </li>
+                </a>
+                <a href="job1115.php">
+                    <li>
+                        <h3>UI/UX Designer</h3> <!-- job id 1115 -->
+                        <p>Remote, UK</p>
+                        <img src="assets/arrowBlack.svg" id="arrow">
+                    </li>
+                </a>
+                <a href="job1116.php">
+                    <li>
+                        <h3>Unity Developer</h3> <!-- job id 1116 -->
                         <p>Remote, UK</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>

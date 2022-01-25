@@ -57,7 +57,7 @@
         <section id="services">
             <hr>
             <ul>
-                <li> <img src="assets/images/maskGroup.png" alt=""> </li>
+                <!-- <li> <img src="assets/images/BlockchainPlatform1.eps" alt=""> </li> -->
                 <li>
                     <h1>We create world-class digital products, web design, and branding.</h1>
                     <p>
@@ -117,6 +117,8 @@
                     <div id="employee" class="col-md-4"> <div><img src="assets/images/ayush.jpg" alt=""></div> <div id="name">Ayush Khetan</div> <div class="role">Co-founder and CEO</div></div>
                     <div id="employee" class="col-md-4"> <div><img src="assets/images/karan.jpg" alt=""></div> <div id="name">Karan Sharma</div> <div class="role">COO</div></div>
                     <div id="employee" class="col-md-4"> <div><img src="assets/images/raunak.jpg" alt=""></div> <div id="name">Raunak Agrawal</div> <div class="role">CMO</div></div>
+                    <div id="employee" class="col-md-4"> <div><img src="assets/images/Jacqueline.jpg" alt=""></div> <div id="name">Jacqueline Chiinngaihlian</div> <div class="role">Chief Administrator</div></div>
+                    <div id="employee" class="col-md-4"> <div><img src="assets/images/Vidipt.jpg" alt=""></div> <div id="name">Vidipt Saroj Kalla</div> <div class="role">Creative director</div></div>
                 </div>
             </div>
           </section>

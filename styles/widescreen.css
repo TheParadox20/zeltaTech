@@ -200,7 +200,8 @@ header #contact span{
 /* end of who we are section */
 
 #services{
-    background: #5D5FEF;
+    /* background: #5D5FEF; */
+    background-image: url('assets/images/blockchain_platform-1.jpg');
 }
 #services ul{
     max-width: 70%;
