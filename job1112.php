@@ -24,24 +24,7 @@
             <p>Join the Zelta family</p>
         </section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-no-margin">
-                    <div id="left">
-                    <h3>Application Process</h3>
-                    <ol>
-                        <li>1. Download Application</li>
-                        <div>
-                            <img src="assets/pdf.svg" alt="" srcset=""> <a href="">Download.pdf</a>
-                        </div>
-                        <br>
-                        <div>
-                            <img src="assets/doc.svg" alt="" srcset=""> <a href="">Download.doc</a>
-                        </div>
-                        <li>2. Fill information</li>
-                        <li>3. Send Back to Us</li>
-                    </ol>
-                    </div>
-                </div>
+            <div class="row"> 
                 <div class="col-md-8 col-no-margin" id="right">
                     <h1>Product Manager</h1>
                     <p>

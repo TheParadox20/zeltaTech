@@ -113,7 +113,7 @@
             <h1>Meet Our Team</h1>
             <p>We have an outstanding team of developers, designers and creators who constantly work towards making our clients happy.</p>
             <div class="container">
-                <div class="row justify-content-center" id="gallary">
+                <div class="row -cjustifyontent-center" id="gallary">
                     <div id="employee" class="col-md-4"> <div><img src="assets/images/ayush.jpg" alt=""></div> <div id="name">Ayush Khetan</div> <div class="role">Co-founder and CEO</div></div>
                     <div id="employee" class="col-md-4"> <div><img src="assets/images/karan.jpg" alt=""></div> <div id="name">Karan Sharma</div> <div class="role">COO</div></div>
                     <div id="employee" class="col-md-4"> <div><img src="assets/images/raunak.jpg" alt=""></div> <div id="name">Raunak Agrawal</div> <div class="role">CMO</div></div>

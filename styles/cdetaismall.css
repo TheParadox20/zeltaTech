@@ -160,35 +160,11 @@ color: #FFFFFF;
 
 /* end of landing section */
 
-/* start of left side */
-
-#left{
-}
-#left h3{
-    font-family: Samsung Sharp Sans-Medium;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    color: #000B33;
-}
-#left ol li{
-    font-family: Samsung Sharp Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000B33;
-    margin: 6% 0%;
-}
-/* end of left side */
 
 /* start of right side */
 #right{
     margin-bottom: 7%;
+    box-shadow: 0 4px 8px 0 #EBF5FF, 0 16px 20px 0 #EBF5FF;
 }
 #right h1{
     font-family: Samsung Sharp Sans-Bold;
