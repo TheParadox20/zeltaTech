@@ -24,9 +24,8 @@
             <p>Join the Zelta family</p>
         </section>
         <div class="container">
-            <div class="row">
-                
-                <div class="col-md-8 col-no-margin" id="right">
+            <div class="row justify-content-center">  
+                <div class="col-md-10 col-no-margin" id="right">
                     <h1>UI/UX Designer</h1>
                     <p>
                         ZeltaTech is now hiring for a front end UI/UX designer who can let their creativity flow on a blank figma canvas, and turn our software into easy-to-use products for our clients. If you feel that you are ready to take on an interesting and challenging journey to create a product, our eyes are on you!

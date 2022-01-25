@@ -24,8 +24,8 @@
             <p>Join the Zelta family</p>
         </section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-no-margin" id="right">
+        <div class="row justify-content-center">  
+                <div class="col-md-10 col-no-margin" id="right">
                     <h1>Full Stack Javascript Developer</h1>
                     <p>
                         We are looking for a highly skilled computer programmer who is comfortable with both front and back end programming.

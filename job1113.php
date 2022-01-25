@@ -24,9 +24,8 @@
             <p>Join the Zelta family</p>
         </section>
         <div class="container">
-            <div class="row">
-                
-                <div class="col-md-8 col-no-margin" id="right">
+            <div class="row justify-content-center">  
+                <div class="col-md-10 col-no-margin" id="right">
                     <h1>Solidity Developer</h1>
                     <p>
                         ZeltaTech is looking for a dynamic solidity developer, and if you are willing to turn your coding expertise into a full time job, we are looking for you.

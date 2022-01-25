@@ -24,10 +24,8 @@
             <p>Join the Zelta family</p>
         </section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-no-margin">
-                
-                <div class="col-md-8 col-no-margin" id="right">
+            <div class="row justify-content-center">  
+                <div class="col-md-10 col-no-margin" id="right">
                     <h1>Unity Developer</h1>
                     <p>
                         ZeltaTech is looking for a Unity Developer to join our IT team! As a Unity or Unity3D Developer at our company, you will be responsible for implementing game functionality translating design ideas, concepts, and requirements into a functional and engaging game

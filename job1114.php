@@ -24,8 +24,8 @@
             <p>Join the Zelta family</p>
         </section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-no-margin" id="right">
+            <div class="row justify-content-center">  
+                <div class="col-md-10 col-no-margin" id="right">
                     <h1>Systems Administrator</h1>
                     <p>
                         ZeltaTech is now hiring for a Systems Administrator who can join and optimize the efficiency of our hardware. If you feel that you are ready to take on an interesting and challenging journey to create a product, our eyes are on you!

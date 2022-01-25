@@ -24,8 +24,8 @@
             <p>Join the Zelta family</p>
         </section>
         <div class="container">
-            <div class="row"> 
-                <div class="col-md-8 col-no-margin" id="right">
+        <div class="row justify-content-center">  
+                <div class="col-md-10 col-no-margin" id="right">
                     <h1>Product Manager</h1>
                     <p>
                         The Product Manager is responsible for both product planning and product marketing. This includes managing the product throughout the Product Lifecycle, gathering and prioritizing product and customer requirements, defining the product vision, and working closely with engineering, to deliver winning products
