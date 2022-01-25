@@ -67,7 +67,7 @@
                         <li>Ability to work proactively and result driven: always trying to learn that extra detail that can help you take the most accurate decision.</li>
                         <li>Strong spoken and written English is required.  Spanish and Italian knowledge would be a plus.</li>
                     </ul>
-                    <a href="#contactUs"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
+                    <a href="https://forms.gle/T27V53PYM1bAmdEi8"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
                 </div>
             </div>
         </div>

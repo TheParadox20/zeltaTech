@@ -57,7 +57,7 @@
         <section id="services">
             <hr>
             <ul>
-                <!-- <li> <img src="assets/images/BlockchainPlatform1.eps" alt=""> </li> -->
+                <li> <img src="assets/images/maskGroup.png" alt=""> </li>
                 <li>
                     <h1>We create world-class digital products, web design, and branding.</h1>
                     <p>

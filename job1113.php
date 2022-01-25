@@ -51,7 +51,7 @@
                         <li>Solidity and knowledge of ABI (eg. variable mapping to storage slots).</li>
                         <li>Experience as a full stack developer.</li>
                     </ul>
-                    <a href="#contactUs"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
+                    <a href="https://forms.gle/T27V53PYM1bAmdEi8"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
                 </div>
             </div>
         </div>

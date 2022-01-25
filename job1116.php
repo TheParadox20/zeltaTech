@@ -60,7 +60,7 @@
                         <li>Critical thinker and problem-solving skills</li>
                         <li>Team player</li>
                     </ul>
-                    <a href="#contactUs"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
+                    <a href="https://forms.gle/T27V53PYM1bAmdEi8"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
                 </div>
             </div>
         </div>

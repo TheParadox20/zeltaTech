@@ -56,7 +56,7 @@
                         <li>A proven track record of developing and implementing IT strategy and plans</li>
                         <li>Strong knowledge of implementing and effectively developing helpdesk and IT operations best practices, including expert knowledge of security, storage, data protection, and disaster recovery protocols</li>
                     </ul>
-                    <a href="#contactUs"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
+                    <a href="https://forms.gle/T27V53PYM1bAmdEi8"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
                 </div>
             </div>
         </div>

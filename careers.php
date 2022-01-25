@@ -44,7 +44,7 @@
                 <a href="job1110.php">
                     <li>
                         <h3>Full Stack Javascript Developer</h3> <!-- job id 1110 -->
-                        <p>Full Time, aipur, Rajasthan , India</p>
+                        <p>Full Time, Jaipur, Rajasthan , India</p>
                         <!-- <div id="arrow"><img src="assets/arrowBlack.svg"></div> -->
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
@@ -52,42 +52,42 @@
                 <a href="job1111.php">
                     <li>
                         <h3>PR & Social Media Manager</h3> <!-- job id 1111 -->
-                        <p>Remote, aipur, Rajasthan , India</p>
+                        <p>Full Time, Jaipur, Rajasthan , India</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
                 <a href="job1112.php">
                     <li>
                         <h3>Product Manager</h3> <!-- job id 1112 -->
-                        <p>Full Time, aipur, Rajasthan , India</p>
+                        <p>Full Time, Jaipur, Rajasthan , India</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
                 <a href="job1113.php">
                     <li>
                         <h3>Solidity Developer</h3> <!-- job id 1113 -->
-                        <p>Full time, aipur, Rajasthan , India</p>
+                        <p>Full time, Jaipur, Rajasthan , India</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
                 <a href="job1114.php">
                     <li>
                         <h3>Systems Administrator</h3> <!-- job id 1114 -->
-                        <p>Full time, aipur, Rajasthan , India</p>
+                        <p>Full time, Jaipur, Rajasthan , India</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
                 <a href="job1115.php">
                     <li>
                         <h3>UI/UX Designer</h3> <!-- job id 1115 -->
-                        <p>Full time, aipur, Rajasthan , India</p>
+                        <p>Full time, Jaipur, Rajasthan , India</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>
                 <a href="job1116.php">
                     <li>
                         <h3>Unity Developer</h3> <!-- job id 1116 -->
-                        <p>Full time, aipur, Rajasthan , India</p>
+                        <p>Full time, Jaipur, Rajasthan , India</p>
                         <img src="assets/arrowBlack.svg" id="arrow">
                     </li>
                 </a>

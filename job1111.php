@@ -55,7 +55,7 @@
                         <li>Agility to quickly pivot and react to a new trend</li>
                         <li> Data Analysis</li>
                     </ul>
-                    <a href="#contactUs"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
+                    <a href="https://forms.gle/T27V53PYM1bAmdEi8"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
                 </div>
             </div>
         </div>
