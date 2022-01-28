@@ -198,22 +198,13 @@ color: #FFFFFF;
 /* end of who we are section */
 
 #services{
-    /* background: #5D5FEF; */
-    background-image: url("../assets/images/purple.jpg");
-    background-repeat: no-repeat;
+    background: #5D5FEF;
+    padding: 5% 0%;
 }
-#services ul{
-    max-width: 95%;
-    margin: auto;
-}
-#services ul li{
-    display: inline-block;
-    list-style: none;
-}
-#services ul li img{
+#services img{
     display: none;
 }
-#services ul li h1{
+#services h1{
     font-family: Samsung Sharp Sans-bold;
     font-style: normal;
     font-size: 28px;
