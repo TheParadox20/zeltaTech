@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href = "assets/logo.svg" rel="icon" type="image/gif">
-    <link rel="stylesheet" media="screen and (min-width: 601px)" href="styles/wdescreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="styles/widescreen.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/smallscreen.css">
     <title>Zeltatech</title>
     <!-- Bootstrap CSS -->
@@ -54,21 +54,34 @@
                 </div>
             </div>
         </section>
-        <section id="services">
+        <!-- <section id="services">
             <div class="container">
-                <div class="row">
+                <div class="row" style="padding:0px !important;">
                     <div class="col-md-6">
-                        <img src="assets/temp.svg" alt="">
+                        <h1>We create world-class digital products, web design, and branding.</h1>
+                        <p>
+                            <span id="serviceSpeech">We work endlessly towards ensuring that our design and branding solutions do justice to the brilliant projects we work with.</span>
+                        </p>
                     </div>
                     <div class="col-md-6">
+                        <img src="assets/images/workplace.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <hr id="scrollServices">
+        </section> -->
+        <section id="services">
+            <div class="flex-container">
+                <div class="texty">
                     <h1>We create world-class digital products, web design, and branding.</h1>
                     <p>
                         <span id="serviceSpeech">We work endlessly towards ensuring that our design and branding solutions do justice to the brilliant projects we work with.</span>
                     </p>
-                    </div>
+                </div>
+                <div>
+                <img src="assets/images/workplace.png" alt="">
                 </div>
             </div>
-            <!-- <hr id="scrollServices"> -->
         </section>
         <section class="interchange">
             <h1>Get a full product development partner for your startup</h1>

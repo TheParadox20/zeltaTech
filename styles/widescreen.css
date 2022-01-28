@@ -52,9 +52,7 @@ header #contact span{
     font-weight: bold;
     font-size: 15px;
     line-height: 26px;
-
     text-align: center;
-
     color: #FFFFFF;
 }
 .verticalCenter{
@@ -200,13 +198,18 @@ header #contact span{
 /* end of who we are section */
 
 #services{
-    /* background: #5D5FEF; */
-    padding: 7% 0%;
-    /* background-image: url('assets/images/blockchain_platform-1.jpg'); */
+    background: #5D5FEF;
+}
+.flex-container{
+    display: flex;
 }
 #services img{
     width: 100%;
     height: 100%;
+}
+.texty{
+    max-width: 45%;
+    padding: 0% 4%;
 }
 #services h1{
     font-family: Samsung Sharp Sans-bold;
@@ -214,7 +217,7 @@ header #contact span{
     font-size: 48px;
     line-height: 58px;
     letter-spacing: -0.5px;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
     padding-top: 17%;
     padding-bottom: 5%;
 }
@@ -222,9 +225,9 @@ header #contact span{
     font-family: Samsung Sharp Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 29px;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
     opacity: 0.8;
 }
 .interchange{
