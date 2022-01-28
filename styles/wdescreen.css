@@ -200,7 +200,7 @@ header #contact span{
 /* end of who we are section */
 
 #services{
-    background: #5D5FEF;
+    /* background: #5D5FEF; */
     padding: 7% 0%;
     /* background-image: url('assets/images/blockchain_platform-1.jpg'); */
 }
@@ -214,7 +214,7 @@ header #contact span{
     font-size: 48px;
     line-height: 58px;
     letter-spacing: -0.5px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     padding-top: 17%;
     padding-bottom: 5%;
 }
@@ -224,7 +224,7 @@ header #contact span{
     font-weight: 500;
     font-size: 17px;
     line-height: 29px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     opacity: 0.8;
 }
 .interchange{

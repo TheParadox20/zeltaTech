@@ -29,7 +29,7 @@
                     <div id="alphaT">Building your future</div>
                     <h1 id="Title">We are hiring</h1>
                     <p>Here at Zeltatech, we strive to make palpable changes to the everyday lives of people. We believe financial freedom is a human right and aim to make that a reality. Join our cause and make a difference!</p>
-                    <a href="#contactUs"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
+                    <a href="https://forms.gle/T27V53PYM1bAmdEi8"><button id="callButton"> <span id="callButtonText">Apply Now</span></button></a>
                 </div>
             </div>
             <div class="landingImage">
